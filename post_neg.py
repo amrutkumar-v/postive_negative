@@ -1,5 +1,3 @@
-num = int(input("Enter a number: "))
-
 def check_num(num):
     if num > 0:
         return("Positive number")
@@ -7,3 +5,6 @@ def check_num(num):
         return("Negative number")
     else:
         return("Zero")
+print("The result is:",check_num(10))
+print("The result is:",check_num(-10))
+print("The result is:",check_num(0))
